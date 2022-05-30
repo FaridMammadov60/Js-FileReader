@@ -16,31 +16,58 @@
 
 <body>
     <div class="container">
-        <div class="row mt-5">
+        <div id="user-icon" class="row mt-5">
             <div class="icon-div">
                 <i class="fa fa-user" style="font-size: 100px;" aria-hidden="true"></i>
-            </div>           
+            </div>
         </div>
-        <div class="row mt-5">
-            <div id="group-one" class="input-group mt-2 ">
-                <input  id="input-one" type="text" class="form-control" placeholder="Ad" aria-label="Text input with segmented dropdown button">  
-            </div>
-            <div id="group-two" class="input-group mt-2">
-                <input id="input-two" type="text" class="form-control" placeholder="Soyad" aria-label="Text input with segmented dropdown button">        
-            </div>
-            <div id="group-three" class="input-group mt-2">
-                <input id="input-three" type="text" class="form-control" placeholder="Username"  aria-label="Text input with segmented dropdown button">
+        <div class="row mt-5" id="sub">
+            <div class="input-group mt-2 ">
+                <input id="input-one" type="text" class="form-control" placeholder="Ad"
+                    aria-label="Text input with segmented dropdown button">
             </div>
             <div class="input-group mt-2">
-                <input type="text" class="form-control" placeholder="Description"  aria-label="Text input with segmented dropdown button">
-                                
+                <input id="input-two" type="text" class="form-control" placeholder="Soyad"
+                    aria-label="Text input with segmented dropdown button">
+            </div>
+            <div class="input-group mt-2">
+                <input id="input-three" type="text" class="form-control" placeholder="Username"
+                    aria-label="Text input with segmented dropdown button">
+            </div>
+            <div class="input-group mt-2">
+                <input type="text" class="form-control" placeholder="Description"
+                    aria-label="Text input with segmented dropdown button">
+
             </div>
             <div class="mt-2">
                 <button id="submit" type="button" class="btn btn-outline-secondary">Submit</button>
             </div>
         </div>
-        <div class="row mt-5">
-            <textarea name="textarea" id="textarea" cols="30" rows="10" class="d-none"></textarea>
+        <div id="add-div" class="row mt-5 d-none add">
+            <div>
+                <img src="" alt="" style="width: 100px; height:100px">
+                <input  type="file">
+            </div>
+            <div id="group-one" class="input-group mt-2 ">
+                <input id="input1" type="text" class="form-control" placeholder="Ad"
+                    aria-label="Text input with segmented dropdown button">
+                <button id="button1" class="btn btn-outline-secondary" type="button">Update</button>
+            </div>
+            <div id="group-two" class="input-group mt-2">
+                <input id="input2" type="text" class="form-control" placeholder="Soyad"
+                    aria-label="Text input with segmented dropdown button">
+                <button id="button2" class="btn btn-outline-secondary" type="button">Update</button>
+            </div>
+            <div id="group-three" class="input-group mt-2">
+                <input id="input3" type="text" class="form-control" placeholder="Username"
+                    aria-label="Text input with segmented dropdown button">
+                <button id="button3" class="btn btn-outline-secondary" type="button">Update</button>
+            </div>
+            <div class="input-group mt-2">
+                <input type="text" class="form-control" placeholder="Description"
+                    aria-label="Text input with segmented dropdown button">
+
+            </div>
         </div>
     </div>
 
